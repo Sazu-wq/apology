@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Deep black background */
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #1a1a1a; /* Dark gray for container background */
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            color: #ff6b6b;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            margin-right: 10px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #ff3b3b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Music Section -->
+    <audio id="background-music" loop>
+        <source src="Careless Whisper - Intro loop ( Saxophone only).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Styled Play Music Button -->
+    <button onclick="document.getElementById('background-music').play()" class="play-button">Play Music 🎶</button>
+    
+    <style>
+        /* Style for the Play Music Button */
+        .play-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .play-button:hover {
+            background-color: #ff3b3b;
+            transform: scale(1.05);
+        }
+        .play-button:active {
+            transform: scale(1);
+        }
+    </style>
+    
+
+    <div class="container">
+        <h1>I'm Sorry, my incredibooo ❤️</h1>
+        <p>Hey love, I know I made you angry and you even cut your hair for it, butttt you look great with short hair so no regrets hahahhahhaha. Alright, I'm sorry for over reacting that day beb now forgive me okay? and sorry for shouting too. I kith you.</p>
+        <p>Forgive me beb. ❤️</p>
+
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="1st.jpeg" alt="This is Us beb">
+        </div>
+
+        <!-- Button Options -->
+        <a href="poem.html" class="button">Yes!</a>
+        <a href="poem.html" class="button">Yes! x2</a>
+        
+        
+    </div>
+</body>
+</html>
